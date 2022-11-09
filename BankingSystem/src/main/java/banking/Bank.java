@@ -11,23 +11,21 @@ public class Bank implements BankInterface {
 
 	public Bank() {
 		// complete the function
-		accounts = new LinkedHashMap<>();
 	}
 
 	private Account getAccount(Long accountNumber) {
 		// complete the function
-        return accounts.get(accountNumber);
+        return null;
 	}
 
 	public Long openCommercialAccount(Company company, int pin, double startingDeposit) {
 		// complete the function
-        Account account = new CommercialAccount(company, null, pin, startingDeposit);
-        accounts.put((long)company.taxId, account);
+        return -1L;
 	}
 
 	public Long openConsumerAccount(Person person, int pin, double startingDeposit) {
 		// complete the function
-		return -1L;
+        return -1L;
 	}
 
 	public boolean authenticateUser(Long accountNumber, int pin) {
@@ -37,12 +35,11 @@ public class Bank implements BankInterface {
 
 	public double getBalance(Long accountNumber) {
 		// complete the function
-        return accounts.get(accountNumber).getBalance();
+        return -1;
 	}
 
 	public void credit(Long accountNumber, double amount) {
 		// complete the function
-		accounts.get(accountNumber).creditAccount(amount);
 	}
 
 	public boolean debit(Long accountNumber, double amount) {

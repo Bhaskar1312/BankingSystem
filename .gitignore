@@ -225,8 +225,3 @@ pickle-email-*.html
 
 # Ignore node_modules
 node_modules/
-
-BankingSystem/.classpath
-BankingSystem/.project
-BankingSystem/.settings/
-

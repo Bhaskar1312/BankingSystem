@@ -23,19 +23,15 @@ public class Transaction {
 	 */
 	public Transaction(Bank bank, Long accountNumber, int attemptedPin) throws Exception {
 		// complete the function
-		bank = new Bank();
-		
-		
 	}
 
 	public double getBalance() {
 		// complete the function
-        return bank.getBalance(accountNumber);
+        return -1;
 	}
 
 	public void credit(double amount) {
 		// complete the function
-		bank.credit(accountNumber, amount)
 	}
 
 	public boolean debit(double amount) {

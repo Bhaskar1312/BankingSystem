@@ -8,7 +8,6 @@ public abstract class AccountHolder {
 	 */
 	public AccountHolder(int idNumber){
 		// complete the function
-		this.idNumber = idNumber;
 	}
 
 	/**
@@ -16,6 +15,6 @@ public abstract class AccountHolder {
 	 */
 	public int getIdNumber() {
 		// complete the function
-        return this.idNumber;
+        return -1;
 	}
 }
